@@ -34,3 +34,5 @@ select * from emp where age not between 20 and 30;
 select * from emp where contact like "%789%";
 
 select cast((123.456) as decimal(10,2));
+
+select department , count(*) from emp group by department;
