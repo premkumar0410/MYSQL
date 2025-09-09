@@ -41,6 +41,7 @@ select * from employees where salary > any(select salary from employees where de
 select * from employees where salary > all(select salary from employees where department_id = 20);
 
 
+
 select * from employees where emp_id >= any(select emp_id from employees where emp_id > 103);
 
 select * from employees where salary > any(select avg(salary) from employees group by department_id);
