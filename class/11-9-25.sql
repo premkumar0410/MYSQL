@@ -40,6 +40,14 @@ select round(rand()*10) from dual;
 
 select truncate(rand()*10,0) from dual;
  
+select now();
 
+select curdate();
+
+select current_time();
+
+select curtime();
+
+select utc_timestamp();
 
 
