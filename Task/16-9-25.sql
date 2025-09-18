@@ -30,6 +30,5 @@ select replace("prem raj","raj","kumar") from dual;
 -- 7: Format employee IDs with leading zeros (LPAD) and right padding with stars (RPAD).
 select rpad(lpad(emp_id,length(emp_id)+1,0),length(emp_id) + 2,"*") from employees;
 
-
 --  8: Extract first 3 letters of employee names.
 select substring(name,1,3) from employees;
